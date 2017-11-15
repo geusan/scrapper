@@ -86,7 +86,7 @@ def trafficPerPoint():
     baseURL = "http://openapi.seoul.go.kr:8088/6c7a556676646e61313038504c69686b/xml/VolInfo/1/20/"
 
     # 0:지점번호, 1:지점명, 2:X. 3:Y
-    arr = makeArr("resultTrafficPoint.txt")
+    arr = makeArr("resultTrafficPoint2.txt")
 
     year = ["2016","2017"]
     month = ["01","02","03","04","05","06","07","08","09","10","11","12"]
